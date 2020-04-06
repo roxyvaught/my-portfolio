@@ -10,14 +10,11 @@
         <!--navigation-->
         <header>
             <h1>
-                <a href="/">Roxanna Vaught-Mijares</a>
+                <a href="index.html" class="logo">R<span>V</span></a>
             </h1>
             <nav>
-                <!--Unordered list element-->
                 <ul>
-                    <!--list item element-->
                     <li>
-                        <!--Anchor element-->
                         <a href="#about-me">About Me</a> 
                     </li>
                     <li>
@@ -34,58 +31,83 @@
         </header>
 
             <!-- hero -->
-            <section class=hero>
-                <div class=hero-intro>
-                    <h3>Geologist and Developer</h3>
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Roxanna <span>Vaught-Mijares</span></h1>
+                    <h2>GEOLOGIST AND DEVELOPER</h2>
                 </div>
             </section>
 
-            <!-- About me -->
-            <section id=about-me>
-                <h2 class="section-title">About Me</h2>
-                <div class=flex-row>
+    <!--CONTENT-->            
+        <section class="content">
+                <div class="grid-container">
+                    <!--About Me section-->
+                    <div class="grid-item item-1" id="about-me">
+                        <h2 class="section-title">
+                            About Me
+                        </h2>
+                    </div>
+                    <div class="grid-item item-2">
                     <p>
-                        I am a geologist and web developer in training with a diverse background in oil and gas. I graduated with my bachelors in geology in 2015 and obtained my masters in 2018. During that time, I have been lucky enough to work with the US Bureau of Land Management, TGS-NOPEC, and work in the Permian Basin as a Wireline Field Engineer for Schlumberger. Now, I am on the hunt to learn a new skill set while looking for my next adventure! 
+                        I am a geologist and web developer in training with a diverse background in oil and gas. I graduated with my Bachelor's Degree in 2015 and obtained my Master's Degree in 2018, both in geology. During that time, I have been lucky enough to work with the US Bureau of Land Management, TGS-NOPEC, and in the Permian Basin as a Wireline Field Engineer for Schlumberger. Now, I am on the hunt to learn a new skill set while looking for my next adventure! 
                     </p>
+                    <img src="./assets/images/Roxanna.JPG" alt="Roxanna" class="grid-item item-2">
                 </div>
-            </section>
-
-            <!--Work-->
-            <section id=work>
-                <h2 class="section-title">Work</h2>
-                <div class=gallery>
-                    <a target="" href="https://pqdtopen.proquest.com/doc/2206743061.html?FMT=ABS">
-                        <img src="./assets/images/titicaca.jpg" alt="Lake Titicaca" width="600" height="400">
-                      </a>
-                      <div class="desc">Masters Thesis</div>
-                    </div>
-                    
-                    <div class="gallery">
-                      <a target="_blank" href="https://geos.louisiana.edu/news-events/news/20150414/ul-geology-students-best-world-petroleum-exploration">
-                        <img src="./assets/images/iba.jpg" alt="Imperial Barrel Award" width="600" height="400">
-                      </a>
-                      <div class="desc">IBA International Winners</div>
-                    </div>
-                    
-                    <div class="gallery">
-                      <a target="_blank" href="img_lights.jpg">
-                        <img src="./assets/images/lights.jpg" alt="Northern Lights" width="600" height="400">
-                      </a>
-                      <div class="desc">Placeholder</div>
-                    </div>
-                    
-                    <div class="gallery">
-                      <a target="_blank" href="img_mountains.jpg">
-                        <img src="./assets/images/mountain.jfif" alt="Mountains" width="600" height="400">
-                      </a>
-                      <div class="desc">Placeholder</div>
+                <!--Portfolio section-->
+                <div class="grid-item item-3" id="work">
+                    <h2 class="section-title">
+                        Work
+                    </h2>
                 </div>
-            </section>
-
-            <!--Contact Me-->
-            <section id=contact-me>
-                <h2 class="section-title">Contact Me</h2>
-                <div class=contact>
+                <div class="grid-item item-4">
+                    <a href="https://roxyvaught.github.io/run-buddy/" target="_blank" class="gallery item-5">
+                        <div class="gallery item-5">
+                            <span>
+                                <h3>Run Buddy</h3>
+                                <h5>HTML/CSS</h5>
+                            </span>
+                        </div>  
+                    </a>
+                    <a href="https://roxyvaught.github.io/create-a-password/" class="gallery item-6">
+                        <div class="gallery item-6">
+                            <span>
+                                <h3>Password Generator</h3>
+                                <h5>JavaScript/HTML/CSS</h5>
+                            </span>
+                        </div>  
+                    </a>
+                    <a href="https://pqdtopen.proquest.com/doc/2206743061.html?FMT=ABS" class="gallery item-7">
+                        <div class="gallery item-7">
+                            <span>
+                                <h3>Reconstructing Hydrologic Balance with Carbon and Oxygen Isotopes</h3>
+                                <h5>Master's Thesis</h5>
+                            </span>
+                        </div>  
+                    </a>
+                    <a href="https://geos.louisiana.edu/news-events/news/20150414/ul-geology-students-best-world-petroleum-exploration" class="gallery item-8">
+                        <div class="gallery item-8">
+                            <span>
+                                <h3>Imperial Barrel Award- International Winners</h3>
+                                <h5>AAPG</h5>
+                            </span>
+                        </div> 
+                    </a>
+                    <a href="" class="gallery item-9">
+                        <div class="gallery item-9">
+                            <span>
+                                <h3>Project</h3>
+                                <h5>Language</h5>
+                            </span>
+                        </div>
+                    </a>  
+                </div> 
+                <!--Contact Me section-->
+                <div class="grid-item item-10" id="contact-me">
+                    <h2 class="section-title">
+                        Contact Me
+                    </h2>
+                </div>
+                <div class="grid-item item-11">
                     <ul>
                         <li>
                             <a>305.519.8297</a>
@@ -101,11 +123,8 @@
                         </li>
                     </ul>
                 </div>
-            </section>
-
-            <!--Footer-->
-            <footer>
-                <h2>❤️ Made with love by Roxy</h2>
-            </footer>
+            </div>
+        </section>
     </body>
+
 </html>
