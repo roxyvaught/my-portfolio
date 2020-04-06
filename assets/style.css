@@ -23,8 +23,8 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/lanikai1.jpg"); /*fallback image*/
-    background-image: linear-gradient(to right, rgba(47, 226, 196, 0.5), rgba(36, 69, 94, 0.8)), url("../images/lanikai1.jpg");
+    background-image: url("./images/splash.jpg"); /*fallback image*/
+    background-image: linear-gradient(to right, rgba(47, 226, 196, 0.5), rgba(36, 69, 94, 0.8)), url("./images/splash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -76,7 +76,7 @@ header nav ul li a:hover {
     width: 100vw;
     height: 90vh;
     background-image: url("./images/splash.jpg"); /*fallback image*/
-    background-image: linear-gradient(to right, rgba(47, 226, 196, 0.2), rgba(36, 69, 94, .4)), url("./images/splash.jpg");
+    background-image: linear-gradient(to right, rgba(47, 226, 196, 0.1), rgba(36, 69, 94, .3)), url("./images/splash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -192,10 +192,10 @@ header nav ul li a:hover {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 5;
-    background-image: url("./images/run-buddy.JPG");
+    background-image: url("./images/run-buddy.jfif");
 }
 .item-5:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/run-buddy.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/run-buddy.jfif");
 }
 .item-6 {
     grid-column-start: 5;
@@ -224,10 +224,10 @@ header nav ul li a:hover {
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 8;
-    background-image: url("./images/iba.jpg");
+    background-image: url("./images/iba-01.jpg");
 }
 .item-8:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/iba.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/iba-01.jpg");
 }
 .item-9 {
     grid-column-start: 3;
