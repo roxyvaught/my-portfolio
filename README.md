@@ -13,4 +13,4 @@ A professional portfolio displaying previous work in both development and geolog
 ## Contribution
 Roxanna Vaught-Mijares
 
-<img src=".\assets\images\draft.jpg" alt=screenshot of site>
+<img src="assets\images\draft.JPG" alt=screenshot of site />
