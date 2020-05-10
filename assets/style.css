@@ -234,10 +234,11 @@ header nav ul li a:hover {
     grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 8;
-    background-image: url("./images/lights.jpg");
+    background-position: center;
+    background-image: url("./images/NPS-vaction-planner.png");
 }
 .item-9:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/lights.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/NPS-vaction-planner.png");
 }
 /* CONTACT ME STYLE */
 
