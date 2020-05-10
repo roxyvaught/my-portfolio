@@ -194,9 +194,7 @@ header nav ul li a:hover {
     grid-row-end: 5;
     background-image: url("./images/run-buddy.jfif");
 }
-.item-5:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/run-buddy.jfif");
-}
+
 .item-6 {
     grid-column-start: 5;
     grid-column-end: 7;
@@ -205,9 +203,7 @@ header nav ul li a:hover {
     background-image: url("./images/password-generator.JPG");
     background-position: center;
 }
-.item-6:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/password-generator.JPG");
-}
+
 .item-7 {
     grid-column-start: 5;
     grid-column-end: 7;
@@ -216,9 +212,7 @@ header nav ul li a:hover {
     background-image: url("./images/titicaca.jpg");
     background-position: center;
 }
-.item-7:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/titicaca.jpg");
-}
+
 .item-8 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -226,9 +220,7 @@ header nav ul li a:hover {
     grid-row-end: 8;
     background-image: url("images/iba-01.jpg");
 }
-.item-8:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/iba-01.jpg");
-}
+
 .item-9 {
     grid-column-start: 3;
     grid-column-end: 5;
@@ -237,8 +229,8 @@ header nav ul li a:hover {
     background-position: center;
     background-image: url("./images/NPS-vaction-planner.png");
 }
-.item-9:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/NPS-vaction-planner.png");
+/*.item-9:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
 }
 /* CONTACT ME STYLE */
 

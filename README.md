@@ -1,16 +1,16 @@
-# my-portfolio
+# My Portfolio
 
 ## Purpose
-This is my professional portfolio in its first draft.
+A professional portfolio displaying previous work in both development and geology. 
 
 ## Built With 
-*HTML
-*CSS
+* HTML
+* CSS
 
 ## Website 
-https://roxyvaught.github.io/my-portfolio/
+[My Portfolio](https://roxyvaught.github.io/my-portfolio/)
 
 ## Contribution
-
 Roxanna Vaught-Mijares
-<img src=.\assets\images\draft.jpg alt=screenshot of site>
+
+<img src=".\assets\images\draft.jpg" alt=screenshot of site>
