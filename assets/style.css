@@ -101,7 +101,7 @@ header nav ul li a:hover {
 }
 .hero h2 {
     margin-top: 10px;
-    color: #d6d6d6;
+    color: #fff;
     font-weight: 100;
 }
 
@@ -218,7 +218,7 @@ header nav ul li a:hover {
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 8;
-    background-image: url("images/iba-01.jpg");
+    background-image: url("images/IBA-01.jpg");
 }
 
 .item-9 {
@@ -256,6 +256,10 @@ header nav ul li a:hover {
     background: rgba(122, 223, 209, 0.3);
     color: var(--tertiary-color);
     border-radius: 10px;
+}
+
+.fa {
+    color: var(--secondary-color);
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
