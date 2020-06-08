@@ -231,6 +231,14 @@ header nav ul li a:hover {
 }
 /*.item-9:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
+}*/
+.item-12 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    background-position: center;
+    background-image: url("./images/note-taker.JPG");
 }
 /* CONTACT ME STYLE */
 
