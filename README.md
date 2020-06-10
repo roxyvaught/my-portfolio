@@ -8,7 +8,7 @@ A professional portfolio displaying previous work in both development and geolog
 * CSS
 
 ## Website 
-[My Portfolio](https://roxyvaught.github.io/my-portfolio/)
+[My Portfolio](https://roxyvaught.github.io/)
 
 ## Contribution
 Roxanna Vaught-Mijares
